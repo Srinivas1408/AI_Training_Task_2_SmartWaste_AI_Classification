@@ -1,0 +1,20 @@
+# SmartWaste AI — Task 2 dependencies
+# Install with: python -m pip install -r requirements.txt
+# TensorFlow versions vary by Python version and operating system.
+# Google Colab usually already includes TensorFlow; avoid reinstalling unless needed.
+
+tensorflow
+numpy
+Pillow
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Training and evaluation
+scikit-learn
+matplotlib
+seaborn
+
+# Optional: Kaggle dataset download and API testing
+kaggle
+requests
